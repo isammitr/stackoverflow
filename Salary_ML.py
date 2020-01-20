@@ -85,8 +85,8 @@ def find_optimal_lm_mod(X, y, cutoffs, test_size = .30, random_state=42, plot=Tr
         plt.plot(num_feats, r2_scores_test, label="Test", alpha=.5)
         plt.plot(num_feats, r2_scores_train, label="Train", alpha=.5)
         plt.xlabel('Number of Features')
-        plt.ylabel('Rsquared')
-        plt.title('Rsquared by Number of Features')
+        plt.ylabel('R-squared')
+        plt.title('R-squared by Number of Features')
         plt.legend(loc=1)
         plt.show()
 
